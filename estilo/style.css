@@ -1,0 +1,165 @@
+body {
+    background-color: #111b21;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+
+#input {
+    box-shadow: 0 0 0 0;
+    border: 1px solid #3b4a54;
+    padding: 10px;
+    outline: 0;
+    resize: none;
+    width: 380px;
+    height: 350px;
+    background-color:#111b21;
+    color: #868585;
+    font-size: 20px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.p-input {
+    text-align: left;
+    margin:0px;
+    font-style: italic;
+    font-size: 80%;
+}
+#output {
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border: 1px solid #3b4a54;
+    padding: 10px;
+    outline: 0;
+    resize: none;
+    width: 380px;
+    height: 350px;
+    color: #939393;
+    font-size: 20px;
+    background-image: url(../img/testebackground.jpg);
+    background-size: 100%;
+    
+}
+
+.buttons .btn-descriptografar {
+    padding: 10px;
+    margin: 0px;
+    background-image: linear-gradient(#ffffff, #d8d8d9);
+    box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #3b4a54;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttons .btn-criptografar {
+    padding: 10px;
+    margin: 0px;
+    background-image: linear-gradient(#3b4a54, #3b4a54);
+    box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-copiar {
+    padding: 10px;
+    margin: 0px;
+    background-image: linear-gradient(#3b4a54, #3b4a54);
+    box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-copiar:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#3b4a54, #111b21);
+    box-shadow: 0px 0px 50px 0px #3b4a54;
+    transform: scale(1.1);
+    transition: all 0.3s;
+    
+}
+
+.btn-criptografar:hover{
+    cursor: pointer;
+    background-image: url(../img/bluematrix_z15aaw35.gif);
+    box-shadow: 0px 0px 50px 0px rgba(83, 81, 185, 0.3);
+    border-radius: 4px;
+    background-size: 100%;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.btn-descriptografar:hover{
+    cursor: pointer;
+    background-image: url(../img/monophy.gif);
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.buttons {
+    margin-top: 5%;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+   justify-content: center;
+    gap: 10%;
+}
+
+.textarea-content {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    gap: 25%;
+
+}
+
+p, h2 {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.rodape div{
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0.9%;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+    background: #3b4a54;
+}
+
+.rodape div img{
+    width: 1.8%;
+    padding-bottom: 10px;
+    
+}
+
+
+.p-rodape {
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+textarea::placeholder {
+    color: #b7b7b7;
+    font-size: 20px;
+  }
+
+

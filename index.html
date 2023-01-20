@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Textos</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="img/icone-de-cadenas-de-securite-jaune.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <a href="https://www.alura.com.br/oracle-next-education" target="_blank"><img class="logo" src="img/logoAluraG.svg" alt="logo inicial"></a>
+        </header>
+
+        <div class="textarea-content">
+            <div class="textarea-input">
+                <textarea id="input" placeholder="digite seu texto"></textarea>
+                <p class="p-input">
+                    &#33; Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="textarea-output">
+                <textarea id="output" placeholder="nenhuma mensagem encontrada"></textarea>
+
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+            <button onclick="copiar()" class="btn-copiar">Copiar</button>
+    </main>
+
+    <footer class="rodape">
+        <div class="logos-footer">
+            <a href="https://github.com/felizchan" target="_blank"><img class="git-logo" src="img/github-mark-white.svg" alt=""></a>
+            <a href=""><img src="img/PngItem_1342155.png" alt="linkedinlogo"></a>
+            <p class="p-rodape">Desenvolvido por: Emanuel Ferreira</p>
+        </div>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
