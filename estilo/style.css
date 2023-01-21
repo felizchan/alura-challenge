@@ -47,7 +47,7 @@ body {
 .buttons .btn-descriptografar {
     padding: 10px;
     margin: 0px;
-    background-image: linear-gradient(#ffffff, #d8d8d9);
+    background-image: linear-gradient(#ffffff, #6c6c70);
     box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
     border: none;
     color: #3b4a54;
@@ -59,7 +59,7 @@ body {
 .buttons .btn-criptografar {
     padding: 10px;
     margin: 0px;
-    background-image: linear-gradient(#3b4a54, #3b4a54);
+    background-image: linear-gradient(#2b343b, #3b4a54);
     box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
     border: none;
     color: white;
@@ -71,7 +71,7 @@ body {
 .btn-copiar {
     padding: 10px;
     margin: 0px;
-    background-image: linear-gradient(#3b4a54, #3b4a54);
+    background-image: linear-gradient(#2b343b, #3b4a54);
     box-shadow: 0 0px 50px 0px rgba(255, 255, 255, 0.1);
     border: none;
     color: white;
@@ -82,7 +82,7 @@ body {
 
 .btn-copiar:hover{
     cursor: pointer;
-    background-image: linear-gradient(#3b4a54, #111b21);
+    background-image: linear-gradient(#3b4a54, #2b343b);
     box-shadow: 0px 0px 50px 0px #3b4a54;
     transform: scale(1.1);
     transition: all 0.3s;
