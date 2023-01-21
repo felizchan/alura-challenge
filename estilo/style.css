@@ -37,10 +37,11 @@ body {
     resize: none;
     width: 380px;
     height: 350px;
-    color: #939393;
+    color: #868585;
     font-size: 20px;
     background-image: url(../img/testebackground.jpg);
     background-size: 100%;
+    background-repeat: none;
     
 }
 
@@ -162,4 +163,53 @@ textarea::placeholder {
     font-size: 20px;
   }
 
+
+
+  @media screen and (max-width: 480px) {
+    .textarea-content {
+        display: inline-block;
+        width: 90%;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+
+
+    #input {
+        width: 100%;
+    }
+
+    #output{
+        margin-top: 5%;
+        width: 100%;
+        background-repeat: none;
+    }
+    .buttons {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .rodape div {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+
+
+    }
+   
+
+ 
+
+    .rodape div img{
+        width: 10%;
+    }
+
+    .p-rodape {
+        
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+  }
 
